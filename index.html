@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Crearea unui formular in pagina HTML</h3>
+    <form>
+     <fieldset>
+        <legend>Date personale</legend>
+<label>Nume:</label>
+<br>
+<input type="text">
+
+<br>
+<label>Prenume:</label>
+<br>
+<input type="text">
+
+<br>
+<label>Data nasterii:</label>
+<br>
+<input type="text">
+
+<br>
+<label>Password</label>
+<br>
+<input type="text">
+<br>
+
+<label>Hobby</label>
+<br>
+<input type="checkbox" id="h1">
+<label for="h1">Sport</label>
+<br>
+
+<input type="checkbox" id="h2">
+<label for="h2">Kibersport</label>
+<br>
+
+<input type="checkbox" id="h3">
+<label for="h3">Gym</label>
+<br>
+
+<label>Gen</label>
+<br>
+<input type="radio" id="g1" name="gen">
+<label for="g1">Masculin</label>
+<input type="radio" id="g2" name="gen">
+<label for="g2">Femenin</label>
+<br>
+
+<label for="treapta">Selectati treapta:</label>
+<br>
+<select name="tr" id="treapta">
+<option></option>
+    <option>gimnaziu</option>
+    <option>liceu</option>
+</select>
+
+<br>
+<label>Localitatea</label>
+<br>
+<input list="loc" name="locuri">
+<datalist id="loc">
+<option></option>
+<option value="Riscani">
+<option value="Malinovca">
+<option value="Recea">
+    <option value="Costesti">
+        <option value="Moseni">
+</datalist>
+<br>
+
+<br>
+<label>Propuneri:</label>
+<br>
+<textarea rows="5" cols="30" placeholder="asteptam propunerile de activitati extrascolare"></textarea>
+
+<br>
+<input type="reset">
+<input type="button" value="Accept">
+     </fieldset>
+    </form>
+</body>
+</html>
